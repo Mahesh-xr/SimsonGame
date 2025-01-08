@@ -51,3 +51,30 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+  
+  #start {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effects */
+  }
+  
+  #start:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+    transform: scale(1.05); /* Slight enlargement */
+  }
+  
+  #start:active {
+    background-color: #3e8e41; /* Darker shade when active */
+    transform: scale(0.95); /* Slight shrink when clicked */
+  }
+  
+  #start:focus {
+    outline: 2px solid #80d6a6; /* Highlight outline when focused */
+    outline-offset: 3px;
+  }
+  
