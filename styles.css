@@ -78,3 +78,17 @@ body {
     outline-offset: 3px;
   }
   
+  @media (max-width: 450px) {
+   h1{
+    font-size: 1.5rem !important;
+   } 
+   .btn{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+   }
+   #start{
+    margin-top: 10px;
+    width: 100px;
+   }
+  }
